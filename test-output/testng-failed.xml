@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suiteerp]">
+  <test name="saTest(failed)">
+    <classes>
+      <class name="com.ERP.master.scng">
+        <methods>
+          <include name="sc"/>
+        </methods>
+      </class> <!-- com.ERP.master.scng -->
+      <class name="com.ERP.master.exeng">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="uom"/>
+        </methods>
+      </class> <!-- com.ERP.master.exeng -->
+      <class name="com.ERP.master.suppng">
+        <methods>
+          <include name="supp"/>
+        </methods>
+      </class> <!-- com.ERP.master.suppng -->
+    </classes>
+  </test> <!-- saTest(failed) -->
+</suite> <!-- Failed suite [Suiteerp] -->

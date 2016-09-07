@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suiteerp">
+              <span class="suite-name border-skipped">Suiteerp</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suiteerp">
+                    <span>D:\nagesh\ERP\testngw.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suiteerp">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suiteerp">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suiteerp">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suiteerp">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suiteerp">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suiteerp">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,  6 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suiteerp" class="hide-methods skipped suite-Suiteerp"> (hide)</a> <!-- hide-methods skipped suite-Suiteerp -->
+                      <a href="#" panel-name="suite-Suiteerp" class="show-methods skipped suite-Suiteerp"> (show)</a> <!-- show-methods skipped suite-Suiteerp -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suiteerp">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suiteerp" title="com.ERP.master.scng" hash-for-method="sc(pqr)">sc(pqr)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suiteerp" title="com.ERP.master.scng" hash-for-method="sc(xyz)">sc(xyz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suiteerp" title="com.ERP.master.suppng" hash-for-method="supp(toyoto, swinburn, queensland, australia, rock, 108, rock@gm.com, 108, toyoto brand)">supp(toyoto, swinburn, queensland, australia, rock, 108, rock@gm.com, 108, toyoto brand)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suiteerp" title="com.ERP.master.suppng" hash-for-method="supp(toyoto, hyderguda, mumbai, india, dutt, 007, dutt@gm.com, 001, toyoto brand)">supp(toyoto, hyderguda, mumbai, india, dutt, 007, dutt@gm.com, 001, toyoto brand)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suiteerp" title="com.ERP.master.exeng" hash-for-method="uom(uyi, mno)">uom(uyi, mno)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suiteerp" title="com.ERP.master.exeng" hash-for-method="uom(ret, pqr)">uom(ret, pqr)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suiteerp -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suiteerp" class="panel Suiteerp">
+          <div class="suite-Suiteerp-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ERP.master.scng</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sc(pqr)">
+                  </a> <!-- sc(pqr) -->
+                  <span class="method-name">sc</span>
+                  <span class="parameters">(pqr)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sc(xyz)">
+                  </a> <!-- sc(xyz) -->
+                  <span class="method-name">sc</span>
+                  <span class="parameters">(xyz)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suiteerp-class-skipped -->
+          <div class="suite-Suiteerp-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ERP.master.exeng</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="uom(uyi, mno)">
+                  </a> <!-- uom(uyi, mno) -->
+                  <span class="method-name">uom</span>
+                  <span class="parameters">(uyi, mno)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uom(ret, pqr)">
+                  </a> <!-- uom(ret, pqr) -->
+                  <span class="method-name">uom</span>
+                  <span class="parameters">(ret, pqr)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suiteerp-class-skipped -->
+          <div class="suite-Suiteerp-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ERP.master.suppng</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="supp(toyoto, swinburn, queensland, australia, rock, 108, rock@gm.com, 108, toyoto brand)">
+                  </a> <!-- supp(toyoto, swinburn, queensland, australia, rock, 108, rock@gm.com, 108, toyoto brand) -->
+                  <span class="method-name">supp</span>
+                  <span class="parameters">(toyoto, swinburn, queensland, australia, rock, 108, rock@gm.com, 108, toyoto brand)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="supp(toyoto, hyderguda, mumbai, india, dutt, 007, dutt@gm.com, 001, toyoto brand)">
+                  </a> <!-- supp(toyoto, hyderguda, mumbai, india, dutt, 007, dutt@gm.com, 001, toyoto brand) -->
+                  <span class="method-name">supp</span>
+                  <span class="parameters">(toyoto, hyderguda, mumbai, india, dutt, 007, dutt@gm.com, 001, toyoto brand)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suiteerp-class-skipped -->
+        </div> <!-- panel Suiteerp -->
+        <div panel-name="test-xml-Suiteerp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\nagesh\ERP\testngw.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suiteerp&quot;&gt;
+  &lt;test name=&quot;saTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ERP.master.exeng&quot;/&gt;
+      &lt;class name=&quot;com.ERP.master.scng&quot;/&gt;
+      &lt;class name=&quot;com.ERP.master.suppng&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- saTest --&gt;
+&lt;/suite&gt; &lt;!-- Suiteerp --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suiteerp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suiteerp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">saTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suiteerp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suiteerp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suiteerp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suiteerp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suiteerp');
+function tableData_Suiteerp() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sc')
+data.setCell(0, 2, 'com.ERP.master.scng')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'uom')
+data.setCell(1, 2, 'com.ERP.master.exeng')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'uom')
+data.setCell(2, 2, 'com.ERP.master.exeng')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sc')
+data.setCell(3, 2, 'com.ERP.master.scng')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'supp')
+data.setCell(4, 2, 'com.ERP.master.suppng')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'supp')
+data.setCell(5, 2, 'com.ERP.master.suppng')
+data.setCell(5, 3, 0);
+window.suiteTableData['Suiteerp']= { tableData: data, tableDiv: 'times-div-Suiteerp'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Suiteerp">
+              </div> <!-- times-div-Suiteerp -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suiteerp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suiteerp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suiteerp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ERP.master.scng</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ERP.master.suppng</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suiteerp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ERP.master.exeng</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ERP.master.scng</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sc(xyz)</span>
+                <span class="method-start">25625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sc(pqr)</span>
+                <span class="method-start">25625 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ERP.master.exeng</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">uom(ret, pqr)</span>
+                <span class="method-start">25625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">uom(uyi, mno)</span>
+                <span class="method-start">25625 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ERP.master.suppng</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">supp(toyoto, hyderguda, mumbai, india, dutt, 007, dutt@gm.com, 001, toyoto brand)</span>
+                <span class="method-start">25641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">supp(toyoto, swinburn, queensland, australia, rock, 108, rock@gm.com, 108, toyoto brand)</span>
+                <span class="method-start">25641 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
